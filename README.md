@@ -15,24 +15,24 @@
 
 ## Структура папок проекта
 
-Supervised_Learning_Real/
-├── data/                    # Исходные данные
-│   ├── market_file.csv
-│   ├── market_money.csv
-│   ├── market_time.csv
-│   └── money.csv
-├── notebooks/               # Jupyter notebooks
-│   └── Supervised_Learning_Real.ipynb
-├── docs/                    # Документация, отчеты
-├── README.md                # Описание проекта
-└── .gitignore               # Файл для исключения ненужных файлов
-└── requirements             # Файл для 
-└── requirements.txt         # Файл для 
+Supervised_Learning_Real:
+- ├── data/                    # Исходные данные
+- │   ├── market_file.csv
+- │   ├── market_money.csv
+- │   ├── market_time.csv
+- │   └── money.csv
+- ├── notebooks/               # Jupyter notebooks
+- │   └── Supervised_Learning_Real.ipynb
+- ├── docs/                    # Документация, отчеты
+- ├── README.md                # Описание проекта
+- └── .gitignore               # Файл для исключения ненужных файлов
+- └── requirements             # Файл для 
+- └── requirements.txt         # Файл для 
 
 ## Запуск проекта
-1. Клонировать репозиторий
-2. Установить зависимости: `pip install -r requirements.txt`
-3. Открыть Jupyter notebook: `jupyter notebook notebooks/Supervised_Learning_Real.ipynb`
+1. Клонирован репозиторий
+2. Установлены зависимости: `pip install -r requirements.txt`
+3. Открыт Jupyter notebook: `jupyter notebook notebooks/Supervised_Learning_Real.ipynb`
 
 ## Использованные модели
 1. **RandomForestClassifier** (Accuracy: 0.87)
