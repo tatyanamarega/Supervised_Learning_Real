@@ -43,11 +43,16 @@ Supervised_Learning_Real:
 - └── requirements.txt         # Зависимости 
 
 ## Model Comparison
-| Model                | Accuracy | Precision | Recall | F1-score |
-|----------------------|----------|-----------|--------|----------|
-| RandomForest         | 0.908    | 0.89      | 0.86   | 0.88     |
-| LogisticRegression   | 0.886    | 0.87      | 0.84   | 0.85     |
-| SVM                  | 0.889    | 0.88      | 0.85   | 0.86     |
+| Model                | Accuracy  | Лучшие параметры                    |
+|----------------------|-----------|-------------------------------------|
+| RandomForest         | 0.8923    | n_estimators=500, max_depth=20      |
+| LogisticRegression   | 0.8860    | C=0.01, solver=lbfgs                |
+| SVM                  | 0.8891    | C=0.1, kernel=rbf                   |
+| GradientBoosting     | 0.8849    | n_estimators=100, learning_rate=0.2 |
+
+## Выводы
+- RandomForest показал наилучший результат после настройки гиперпараметров
+- Добавление GradientBoosting расширило сравнительный анализ
 
 ## Ключевые инсайты
 ### Топ-5 значимых признаков:
